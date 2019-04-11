@@ -19,10 +19,23 @@ description: Expertos en Transformación Digital. Valencia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.makotosquad.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: makotosquad
+logo: /assets/logo.jpg
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+menu:
+  - name: "Makoto Squad"
+    link: "/"
+  - name: "Cuenta con nosotros para..."
+    link: "/#cuenta-con-nosotros-para"
+  - name: "Transormación digital"
+    link: "/#transformacion-digital"
+  - name: "Escríbenos"
+    link: "/#escribenos"
+  - name: "Workshops"
+    link: "/workshops"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

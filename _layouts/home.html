@@ -3,32 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <h1 class="page-heading">Makoto Squad</h1>
 
-  {{ content }}
+  <p>Makoto es una consultora especializada en el proceso de <strong>transformación digital</strong> de las organizaciones.</p>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  <p>Compartimos los principios y valores recogidos en el <a href="http://agilemanifesto.org/iso/es/manifesto.html">manifiesto agile</a> y <strong>adaptamos sus prácticas</strong> al contexto de cada organización. Esta sensibilidad nos permite empatizar con clientes de cualquier sector, tamaño o madurez tecnológica.</p>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+  <h1 id="cuenta-con-nosotros-para">Cuenta con nosotros para...</h1>
 
+  <ul>
+    <li>Identificar la ineficiencia en los procesos y optimizar los flujos de trabajo de tu organización.</li>
+    <li>Desarrollar un proyecto o producto digital. Te ayudamos en el proceso de definición y gestión de su construcción.</li>
+  </ul>
+
+  <h1 id="transformacion-digital">Transformación Digital</h1>
+
+  <p>La forma de organizar el trabajo, la forma de satisfacer a los clientes, los canales de comunicación o las posibilidades que ofrece la tecnología están en constante movimiento. Entendemos que las organizaciones deben ser capaces de <strong>adaptarse a estos cambios</strong>.</p>
+
+  <p>Ayudamos a tu organización a <strong>encontrar, diseñar y aplicar metodologías, procesos y productos digitales adaptados</strong> a su contexto para poder responder a los cambios. Basándonos en la <strong>transparencia, eliminando las ineficiencias de los procesos y fomentando la mejora continua</strong>.</p>
 </div>
